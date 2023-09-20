@@ -1,22 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import './css/App.css';
+import Weather_App from './components/Weather_App';
+const api_key = "85cffdf71c5e0e3b174f2146f103b5a3";
+const api_url = "https://api.openweathermap.org/data/2.5/weather?q=" //{city name}&appid={API key}
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Weather_App/>
       </header>
     </div>
   );
