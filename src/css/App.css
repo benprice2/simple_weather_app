@@ -101,7 +101,7 @@
   margin-right: 15px;
 }
 
-.humidity, .wind {
+.humidity_percent, .wind {
   font-size: 28px;
   margin: 0;
 }
